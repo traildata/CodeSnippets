@@ -1,0 +1,36 @@
+
+
+pragma solidity ^0.4.0;
+
+contract Person {
+
+   uint private age;
+   string private name;
+   
+   
+   function setAge ( uint newAge){
+   
+   age = newAge;
+   
+   }
+   
+   function getAge () returns (uint){
+   
+   return age;
+   }
+
+   
+   function setName( string newName)
+   {
+   
+   name = newName;
+   
+   }
+   
+   function getName() returns (string){
+   
+   return name;
+   
+   }
+}
+
